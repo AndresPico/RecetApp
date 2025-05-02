@@ -1,0 +1,6 @@
+backend/firebase.json to .gitignore
+
+This commit adds the backend/firebase.json file to the .gitignore
+to prevent it from being tracked by Git. This is to avoid
+accidentally committing sensitive information such as
+service account credentials.

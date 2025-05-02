@@ -1,0 +1,149 @@
+.homepage-panel {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #e9ecef;
+}
+
+.homepage-header-panel {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage-header-panel h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.user-profile-preview {
+  font-size: 0.9em;
+}
+
+.panel-search-ingredients {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.panel-search-ingredients input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.panel-search-ingredients button {
+  padding: 10px 15px;
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.panel-filters {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.filter-buttons button {
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+.advanced-filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.advanced-filters select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.panel-recipes-grid {
+  padding: 20px;
+}
+
+.panel-recipes-grid h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.recipes-grid-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.recipe-card-panel {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.recipe-card-panel img {
+  width: 100%;
+  max-height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.recipe-card-panel h3 {
+  margin-top: 0;
+  font-size: 1em;
+}
+
+.recipe-card-panel button {
+  padding: 8px 12px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+.homepage-footer-panel {
+  background-color: #343a40;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-navigation a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
